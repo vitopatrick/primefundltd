@@ -33,7 +33,7 @@ const Navbar = (props: Props) => {
       <div className="flex md:w-[80%] mx-auto py-4 px-2 justify-between items-center">
         <div className="w-[200px]">
           <Link href="/">
-            <h4 className="font-headerTwo font-bold text-2xl">Equity Plus</h4>
+            <h4 className="font-headerTwo font-bold text-2xl">Prime Fund </h4>
           </Link>
         </div>
 
@@ -51,7 +51,7 @@ const Navbar = (props: Props) => {
         <div>
           <Link
             href="/get-started"
-            className="font-headerTwo font-semibold bg-yellow-400 rounded-md px-6 py-3 w-full block"
+            className="font-headerTwo  font-semibold bg-sky-400 rounded-md px-6 py-3 w-full block text-white"
           >
             Register Today
           </Link>

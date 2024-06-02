@@ -5,12 +5,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCL8l1Z7rjozU6InywEbbr9J6RclSMcXvo",
-  authDomain: "equity-plus-1601a.firebaseapp.com",
-  projectId: "equity-plus-1601a",
-  storageBucket: "equity-plus-1601a.appspot.com",
-  messagingSenderId: "959632300704",
-  appId: "1:959632300704:web:a43795d6866bdafae6c7c5",
+  apiKey: "AIzaSyCWyXmOk_kRV6On04p3zjbkiE2T2X-rpUE",
+  authDomain: "primefund-bc908.firebaseapp.com",
+  projectId: "primefund-bc908",
+  storageBucket: "primefund-bc908.appspot.com",
+  messagingSenderId: "95309506946",
+  appId: "1:95309506946:web:4cdedfaf9480b8e472079b",
 };
 
 export const app = initializeApp(firebaseConfig);

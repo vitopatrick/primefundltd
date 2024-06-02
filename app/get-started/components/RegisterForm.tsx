@@ -118,7 +118,7 @@ const RegisterForm = () => {
   };
 
   return (
-    <section className="w-full mt-[3rem] md:mt-0">
+    <section className="w-full mt-[3rem] md:mt-0 p-4">
       <form className="space-y-8" onSubmit={handleSubmit(registerUser)}>
         {/* Name */}
         <div className="flex flex-col gap-1">
@@ -129,7 +129,11 @@ const RegisterForm = () => {
             type="text"
             {...register("full_name")}
             placeholder="John Doe"
-            className="border-b-2 p-3 border-neutral-400 font-body"
+            className={
+              errors.email?.message
+                ? "p-3 rounded-lg  border  border-red-500"
+                : "p-3 rounded-lg  border-[1.4px]   border-sky-800"
+            }
           />
           <p className="font-body text-sm capitalize text-red-400">
             {errors.full_name?.message}
@@ -144,7 +148,11 @@ const RegisterForm = () => {
             type="email"
             {...register("email")}
             placeholder="JohnDoe@example.com"
-            className="border-b-2 p-3 border-neutral-400 font-body"
+            className={
+              errors.email?.message
+                ? "p-3 rounded-lg  border  border-red-500"
+                : "p-3 rounded-lg  border-[1.4px]   border-sky-800"
+            }
           />
           <p className="font-body text-sm capitalize text-red-400">
             {errors.email?.message}
@@ -158,7 +166,11 @@ const RegisterForm = () => {
           <input
             type="password"
             {...register("password")}
-            className="border-b-2 p-3 border-neutral-400 font-body"
+            className={
+              errors.email?.message
+                ? "p-3 rounded-lg  border  border-red-500"
+                : "p-3 rounded-lg  border-[1.4px]   border-sky-800"
+            }
           />
           <p className="font-body text-sm capitalize text-red-400">
             {errors.password?.message}
@@ -172,7 +184,11 @@ const RegisterForm = () => {
           <input
             type="tel"
             {...register("phone_number")}
-            className="border-b-2 p-3 border-neutral-400 font-body"
+            className={
+              errors.email?.message
+                ? "p-3 rounded-lg  border  border-red-500"
+                : "p-3 rounded-lg  border-[1.4px]   border-sky-800"
+            }
           />
           <p className="font-body text-sm capitalize text-red-400">
             {errors.phone_number?.message}
@@ -185,7 +201,11 @@ const RegisterForm = () => {
           </label>
           <select
             {...register("country")}
-            className="border-b-2 p-3 border-neutral-400 font-body"
+            className={
+              errors.email?.message
+                ? "p-3 rounded-lg  border  border-red-500"
+                : "p-3 rounded-lg  border-[1.4px]   border-sky-800"
+            }
           >
             {countries &&
               countries.map((country: any) => (

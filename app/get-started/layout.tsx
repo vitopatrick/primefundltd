@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Get started with equity plus FX Trader",
+  title: "Get started with Prime Fund  FX Trader",
   description: "Start your easy trading Today",
 };
 

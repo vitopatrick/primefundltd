@@ -8,33 +8,33 @@ type Props = {};
 let faqs = [
   {
     id: 1,
-    question: "What is equity plus?",
+    question: "What is Prime Fund ?",
     answer:
-      "equity plus is a one-stop-shop solution for Cryptocurrency brokers, offering services such as a CRM system, webtrader, PBX and VoIP system, RDP services, and quality leads.",
+      "Prime Fund  is a one-stop-shop solution for Cryptocurrency brokers, offering services such as a CRM system, webtrader, PBX and VoIP system, RDP services, and quality leads.",
   },
   {
     id: 2,
-    question: "How can equity plus help my Cryptocurrency brokerage?",
+    question: "How can Prime Fund  help my Cryptocurrency brokerage?",
     answer:
-      "equity plus can help your brokerage by providing all the necessary solutions in one place, streamlining your operations and making it easier to manage your clients and leads.",
+      "Prime Fund  can help your brokerage by providing all the necessary solutions in one place, streamlining your operations and making it easier to manage your clients and leads.",
   },
   {
     id: 3,
-    question: "What kind of leads does equity plus provide?",
+    question: "What kind of leads does Prime Fund  provide?",
     answer:
-      "equity plus provides quality leads that are verified and targeted to your specific requirements.",
+      "Prime Fund  provides quality leads that are verified and targeted to your specific requirements.",
   },
   {
     id: 4,
-    question: "Can I customize the services I receive from equity plus?",
+    question: "Can I customize the services I receive from Prime Fund ?",
     answer:
-      "Yes, equity plus offers customized solutions tailored to your specific needs and requirements.",
+      "Yes, Prime Fund  offers customized solutions tailored to your specific needs and requirements.",
   },
   {
     id: 5,
-    question: "How secure are the RDP services provided by equity plus?",
+    question: "How secure are the RDP services provided by Prime Fund ?",
     answer:
-      "equity plus offers flexible pricing options based on the specific services and solutions you require.",
+      "Prime Fund  offers flexible pricing options based on the specific services and solutions you require.",
   },
 ];
 

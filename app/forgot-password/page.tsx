@@ -53,7 +53,7 @@ export default function ForgotPassword() {
     <div>
       <section>
         <div className="p-3 md:w-[35%] mx-auto">
-          <div className="space-y-2 my-4">
+          <div className="space-y-4 my-4">
             <h4 className="font-headerTwo text-3xl font-semibold">
               Forgot your password
             </h4>
@@ -70,8 +70,8 @@ export default function ForgotPassword() {
                 id="email"
                 className={
                   errors.email?.message
-                    ? "p-3 rounded-lg outline-none border-b-2 border-red-500"
-                    : "p-3 rounded-lg outline-none  border-b-2 border-black"
+                    ? "p-3 rounded-lg  border  border-red-500"
+                    : "p-3 rounded-lg  border   border-black"
                 }
                 {...register("email")}
               />

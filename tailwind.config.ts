@@ -10,9 +10,9 @@ const config: Config = {
     extend: {
       fontFamily: {
         header: ["Montserrat Alternates", "sans-serif"],
-        body: ["Josefin Sans", "sans-serif"],
+        body: ["outfit", "sans-serif"],
         headerTwo: ["Syne", "sans-serif"],
-        bodyTwo: ["Poppins", "sans-serif"],
+        bodyTwo: ["outfit", "sans-serif"],
       },
       colors: {
         main: "#3179ff",

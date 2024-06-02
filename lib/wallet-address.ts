@@ -1,47 +1,47 @@
 export const walletOne = [
   {
     id: 1,
-    address: "bc1qdruu02pf0ayhzqvgfsf840mr45lwe5dsmv59gm",
+    address: "bc1qetgr5svukzg608c6r4u6kqs0fu0fv6ll05k5a5",
     sym: "BTC",
     name: "bitcoin",
-    img: "/wallets/btc.jpeg",
+    img: "",
   },
   {
     id: 2,
-    address: "0xe0741670B8a64Ebc652a8414198c74D3C5c55b62",
+    address: "0x78068D1091868fcc024d07fb74cd5c8b554341CA",
     sym: "ETH",
     name: "Ethereum",
-    img: "/wallets/eth.jpeg",
+    img: "",
   },
-  {
-    id: 3,
-    address: "TH9B2d6Tw11fSo3zn5qXDNDNjxY6BVdVvX",
-    sym: "USDT TRC20",
-    name: "Tether",
-    img: "/wallets/usdt.jpeg",
-  },
+  // {
+  //   id: 3,
+  //   address: "TH9B2d6Tw11fSo3zn5qXDNDNjxY6BVdVvX",
+  //   sym: "USDT TRC20",
+  //   name: "Tether",
+  //   img: "",
+  // },
 ];
 
 export const walletTwo = [
   {
     id: 1,
-    address: "bc1qdruu02pf0ayhzqvgfsf840mr45lwe5dsmv59gm",
+    address: "bc1qetgr5svukzg608c6r4u6kqs0fu0fv6ll05k5a5",
     sym: "BTC",
     name: "bitcoin",
-    img: "/wallets/btc.jpeg",
+    img: "",
   },
   {
     id: 2,
-    address: "0xe0741670B8a64Ebc652a8414198c74D3C5c55b62",
+    address: "0x78068D1091868fcc024d07fb74cd5c8b554341CA",
     sym: "ETH",
     name: "Ethereum",
-    img: "/wallets/eth.jpeg",
+    img: "",
   },
-  {
-    id: 3,
-    address: "TH9B2d6Tw11fSo3zn5qXDNDNjxY6BVdVvX",
-    sym: "USDT TRC20",
-    name: "Tether",
-    img: "/wallets/usdt.jpeg",
-  },
+  // {
+  //   id: 3,
+  //   address: "TH9B2d6Tw11fSo3zn5qXDNDNjxY6BVdVvX",
+  //   sym: "USDT TRC20",
+  //   name: "Tether",
+  //   img: "",
+  // },
 ];

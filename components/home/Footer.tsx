@@ -23,14 +23,14 @@ const Footer = (props: Props) => {
           <div className="space-y-4">
             <h4 className="font-body font-light text-neutral-300">Email Us</h4>
             <h4 className="font-headerTwo font-bold text-xl">
-              support@equityplus.online
+              support@primefund.online
             </h4>
           </div>
         </div>
         {/* CopyRight */}
         <div className="my-4 p-4">
           <p className="font-body text-xs font-light">
-            © 2023 All Rights Reserved | Equity Plus
+            © 2023 All Rights Reserved | Prime Fund
           </p>
         </div>
       </section>
