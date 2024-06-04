@@ -33,7 +33,7 @@ const Navbar = (props: Props) => {
       <div className="flex md:w-[80%] mx-auto py-4 px-2 justify-between items-center">
         <div className="w-[200px]">
           <Link href="/">
-            <h4 className="font-headerTwo font-bold text-2xl">Prime Fund </h4>
+            <h4 className="font-headerTwo font-bold text-2xl">Prime Market </h4>
           </Link>
         </div>
 

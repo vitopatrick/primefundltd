@@ -25,7 +25,7 @@ export async function POST(req: Request, res: Response) {
   await transporter.sendMail({
     from: "support@equityplus.online",
     to: data.email,
-    subject: "welcome to Prime Fund ",
+    subject: "welcome to Prime Market ",
     html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html
   xmlns="http://www.w3.org/1999/xhtml"
@@ -360,7 +360,7 @@ export async function POST(req: Request, res: Response) {
                                   "
                                 >
                                   <p style="line-height: 200%">
-                                    Welcome to <strong>Prime Fund </strong>, your
+                                    Welcome to <strong>Prime Market </strong>, your
                                     gateway to the world of cryptocurrency
                                     trading! We are thrilled to have you on
                                     board, and we can't wait to assist you in

@@ -30,7 +30,7 @@ const Footer = (props: Props) => {
         {/* CopyRight */}
         <div className="my-4 p-4">
           <p className="font-body text-xs font-light">
-            © 2023 All Rights Reserved | Prime Fund
+            © 2023 All Rights Reserved | Prime Market
           </p>
         </div>
       </section>

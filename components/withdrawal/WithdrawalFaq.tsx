@@ -5,21 +5,21 @@ import { AnimatePresence, motion } from "framer-motion";
 const faqs = [
   {
     id: 1,
-    question: "How long do I have to wait to withdraw from Prime Fund ?",
+    question: "How long do I have to wait to withdraw from Prime Market ?",
     answer:
-      "Prime Fund  withdrawals typically take around 30 minutes.That's because it usually takes that long for Prime Fund  to process each transaction. However, if you withdraw large amounts, processing time may take longer.",
+      "Prime Market  withdrawals typically take around 30 minutes.That's because it usually takes that long for Prime Market  to process each transaction. However, if you withdraw large amounts, processing time may take longer.",
   },
   {
     id: 2,
-    question: "Does Prime Fund  let you withdraw to bank?",
+    question: "Does Prime Market  let you withdraw to bank?",
     answer:
-      "How To Withdraw From Prime Fund  To Bank? Unfortunately,you cannot withdraw fiat directly from Prime Fund . You will be able to withdraw your money,though,if you open an account on a different exchange that permits fiat withdrawals.",
+      "How To Withdraw From Prime Market  To Bank? Unfortunately,you cannot withdraw fiat directly from Prime Market . You will be able to withdraw your money,though,if you open an account on a different exchange that permits fiat withdrawals.",
   },
   {
     id: 3,
-    question: "Can I withdraw from Prime Fund  without verification?",
+    question: "Can I withdraw from Prime Market  without verification?",
     answer:
-      "Prime Fund  is a cryptocurrency exchange that requires users to complete a verification process in order to use certain features of the platform, such as making deposits and withdrawals.",
+      "Prime Market  is a cryptocurrency exchange that requires users to complete a verification process in order to use certain features of the platform, such as making deposits and withdrawals.",
   },
 ];
 
